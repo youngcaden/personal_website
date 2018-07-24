@@ -1,0 +1,31 @@
+html,body{
+  width:100%;
+  height:100%;
+/*
+  background-image:url(../images/sky.png);
+*/
+}
+
+.left-div{
+ background-color:rgba(235,154,73,0.9);
+}
+.left-div ul li{
+   position:relative;
+   left:-8%;
+   font-size:17px;
+   cursor:pointer;
+}
+
+
+.left-div ul li a:link { 
+   text-decoration: none;
+}
+.left-div ul li a:active { 
+   text-decoration:blink;
+}
+.left-div ul li a:hover{
+   color:MediumSpringGreen;
+}
+.left-div ul li a:visited { 
+   text-decoration: none;
+}
